@@ -1,0 +1,14 @@
+* {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    /* font-style: normal;  */
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.custom-font-color-a35f20 {
+    color: #a35f20;
+}
