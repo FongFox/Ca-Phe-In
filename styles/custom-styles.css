@@ -12,3 +12,13 @@
 .custom-font-color-a35f20 {
     color: #a35f20;
 }
+
+.custom-bg-f7fed8 {
+    background-color: #F7FED8;
+}
+
+.custom-bg-img-about-ca-phe-in {
+    background: url(../images/coffee-beans-piled-wooden-tray.jpg);
+    background-color: #F7FED8;
+    background-size: cover;
+}
