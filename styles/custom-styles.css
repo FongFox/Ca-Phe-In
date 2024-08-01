@@ -19,6 +19,11 @@
 
 .custom-bg-img-about-ca-phe-in {
     background: url(../images/coffee-beans-piled-wooden-tray.jpg);
-    background-color: #F7FED8;
     background-size: cover;
+}
+
+.custom-blog-topic-bg-img {
+    background: url(../images/flat-lay-cups-coffee-beans-with-copy-space.jpg);
+    background-size: cover;
+    background-position-y: 45%;
 }
