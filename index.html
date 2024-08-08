@@ -7,18 +7,10 @@
     <title>Cà Phê In</title>
     <!-- Bootstrap 5 Styles (import) -->
     <link rel="stylesheet" href="styles/custom-styles.css">
-    <!-- <link rel="stylesheet" href="styles/bootstrap.css"> -->
     <link rel="stylesheet" href="styles/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="styles/bootstrap.rtl.css">
-    <link rel="stylesheet" href="styles/bootstrap.rtl.min.css"> -->
     <!-- Bootstrap 5 JS (import) -->
-    <!-- <script src="scripts/bootstrap.bundle.js"></script> -->
     <script src="scripts/bootstrap.bundle.min.js"></script>
-    <!-- JQuery (3.7.1) (import) -->
-    <!-- <script src="scripts/jquery-3.7.1.min.js"></script> -->
-    <!-- Custom CSS (import) -->
     <!-- Custom font-family (import) -->
-    <!-- Josefin Sans (Font Family Import) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
@@ -34,6 +26,9 @@
                     <a class="blog-header-logo text-body-emphasis text-decoration-none" href="index.html">
                         <img src="images/icon/logo.png" alt="brand logo" width="100px" height="70px">
                     </a>
+                </div>
+                <div class="col-4">
+                    <h2 class="Title text-center">Cà Phê In</h2>
                 </div>
                 <div class="col-4 d-flex justify-content-end align-items-center gap-3">
                     <!-- Cart & Checkout -->
@@ -51,16 +46,116 @@
         <div class="nav-scroller py-1 mb-3 border-bottom">
             <nav class="nav nav-underline d-flex justify-content-center gap-5">
                 <!-- Menu Page -->
-                <a class="nav-item nav-link link-body-emphasis" href="#"><b>MENU</b></a>
+                <a class="nav-item nav-link link-body-emphasis" href="pages/Detail-product.html"><b>MENU</b></a>
                 <!-- Promotions Page -->
                 <a class="nav-item nav-link link-body-emphasis" href="#"><b>KHUYẾN MÃI</b></a>
                 <!-- Store Location -->
                 <a class="nav-item nav-link link-body-emphasis" href="#"><b>CỬA HÀNG</b></a>
             </nav>
         </div>
+
+        <div class=""></div>
     </div>
     <!-- Header End -->
+
     <!-- Main Content Start -->
+    <div class="container">
+        <div class="slider-container">
+            <div class="slider">
+                <img src="images/Banner Khuyến Mãi/Banner 1.png" alt="Banner 1" class="slide">
+                <img src="images/Banner Khuyến Mãi/Banner 2.png" alt="Banner 2" class="slide">
+                <img src="images/Banner Khuyến Mãi/Banner 3.png" alt="Banner 3" class="slide">
+                <img src="images/Banner Khuyến Mãi/Banner 4.png" alt="Banner 4" class="slide">
+            </div>
+            <div class="indicators">
+                <div class="indicator active" data-slide="0"></div>
+                <div class="indicator" data-slide="1"></div>
+                <div class="indicator" data-slide="2"></div>
+                <div class="indicator" data-slide="3"></div>
+            </div>
+        </div>
+        <div class="row" id="menu_product">
+            <h1 class="title m-4 fw-bold">Menu đặc biệt !</h1>
+            <div class="row text-center">
+                <div class="col-4">
+                    <div class="frame">
+                        <h1 class="title m-4">Arabica</h1>
+                        <a href="pages/Detail-product.html"><img src="images/menu-arabica/arabica-den-da.png" class="w-100 "></a>
+                        <p class="caphe-title text-center">Arabica Đen Đá</p>
+                        <p class="price">50,000 VND</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="frame">
+                        <h1 class="title m-4">Moka</h1>
+                        <a href=""><img src="images/menu-moka/moka-cappuccino.png" class="w-100"></a>
+                        <p class="caphe-title text-center">Cappuccino</p>
+                        <p class="price">60,000 VND</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="frame">
+                        <h1 class="title m-4">Rubusta</h1>
+                        <a href=""><img src="images/menu-robusta/robusta-espresso.png" class="w-100"></a>
+                        <p class="caphe-title text-center">Robusta Espresso</p>
+                        <p class="price">70,000 VND</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Thêm phần nội dung từ ảnh -->
+        <div class="row mt-5">
+            <h1 class="title m-4 fw-bold">Câu chuyện về cà phê Moka</h1>
+            <div class="col-12 ">
+                <div class="position-relative">
+                    <img src="images/moka-tinh-hoa/video-moka-tinh-hoa.png" alt="Cà phê Moka vùng Trung Du" class="img-fluid w-100">
+                    <div class="moka_title translate-middle col-3 fw-bold">
+                        <p class="" style="margin-bottom: 10px">Cà phê Moka</p> 
+						<p>vùng Trung Du</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-5 mt-3" style="text-align: justify;">
+                <p>Vùng Trung du với những điều kiện tự nhiên ưu đãi, đã trở thành cái nôi của cà phê Moka, nơi mà từng hạt cà phê đều chứa đựng tâm huyết của người nông dân và sự kỳ diệu của thiên nhiên. Đó là lý do vì sao cà phê Moka không chỉ là một sản phẩm nông nghiệp mà còn là niềm tự hào của người Việt Nam, là điểm nhấn đặc biệt trong hành trình khám phá hương vị cà phê đích thực.</p>
+                <button class="btn rounded-pill fw-bold" style="color: #a35f20; background-color: rgb(236,220,196); font-size: 30px; width: 40%">Thử ngay</button>
+            </div>
+            <div class="col-7 mt-3">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/moka-tinh-hoa/moka-tinh-hoa-2.png" alt="Image 1" class="img-fluid">
+                    </div>
+                    <div class="col-4">
+                        <img src="images/moka-tinh-hoa/moka-tinh-hoa.png" alt="Image 2" class="img-fluid">
+                    </div>
+                    <div class="col-4">
+                        <img src="images/moka-tinh-hoa/moka-tinh-hoa-3.png" alt="Image 3" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5 mx-5 my-5" id="branch">
+            <h1 class="title fw-bold">Cửa Hàng !</h1>
+            <div class="row text-center">
+                <div class="col-6">
+                    <div class="frame">
+                        <img src="images/hinh-anh-2-cua-hang/co-so-nvt-1.png" width="450" style="position: relative">
+                        <p class="branch_1 fw-bold m-0 ">Cà Phê In</p>
+                        <p class="branch_p">chi nhánh Nguyễn Văn Tráng</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="frame">
+                        <p class="branch_2 fw-bold m-0">Cà Phê In</p>
+                        <p class="branch_p">chi nhánh Thành Thái</p>
+                        <img src="images/hinh-anh-2-cua-hang/co-so-tt-2.png" width="500">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
     <!-- Main Content End -->
     <!-- Footer Start -->
     <div class="container">
@@ -90,8 +185,7 @@
                         <ul class="nav flex-column">
                             <li class="nav-item mb-2">
                                 <a href="#" class="nav-link p-0 text-body-secondary">
-                                    <img src="images/icon/telephone.png" alt="telephone icon" width="15px"
-                                        height="15px">1900 9999
+                                    <img src="images/icon/telephone.png" alt="telephone icon" width="15px" height="15px">1900 9999
                                 </a>
                             </li>
                             <li class="nav-item mb-2">
@@ -160,6 +254,43 @@
         </footer>
     </div>
     <!-- Footer End -->
+    <script>
+        const slider = document.querySelector('.slider');
+        const slides = document.querySelectorAll('.slide');
+        const indicators = document.querySelectorAll('.indicator');
+
+        let currentIndex = 0;
+
+        function showSlide(index) {
+            const totalSlides = slides.length;
+            if (index >= totalSlides) {
+                currentIndex = 0;
+            } else if (index < 0) {
+                currentIndex = totalSlides - 1;
+            } else {
+                currentIndex = index;
+            }
+            slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+            updateIndicators();
+        }
+
+        function updateIndicators() {
+            indicators.forEach((indicator, index) => {
+                indicator.classList.toggle('active', index === currentIndex);
+            });
+        }
+
+        indicators.forEach((indicator, index) => {
+            indicator.addEventListener('click', () => {
+                showSlide(index);
+            });
+        });
+
+        // Tự động chuyển slide sau mỗi 5 giây
+        setInterval(() => {
+            showSlide(currentIndex + 1);
+        }, 5000);
+    </script>
 </body>
 
 </html>
