@@ -1,43 +1,33 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cà Phê In</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+
     <!-- AOS CSS -->
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-
     <!-- AOS JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600;800&display=swap"
         rel="stylesheet">
-
     <!-- Icon Font Stylesheet -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
     <!-- Libraries Stylesheet -->
     <link href="../libraries/lightbox/css/lightbox.min.css" rel="stylesheet">
     <link href="../libraries/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-
     <!-- Customized Bootstrap Stylesheet -->
     <link href="../styles/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Template Stylesheet -->
     <link rel="stylesheet" href="../styles/css/style.css">
 </head>
 
 <body>
-
     <!-- Spinner Start -->
     <div id="spinner"
         class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
@@ -45,14 +35,14 @@
     </div>
     <!-- Spinner End -->
 
-
     <!-- Navbar start -->
     <div class="container-fluid fixed-top">
-        <div class="container px-0" style="margin-top: 15px;">
-            <nav class="navbar navbar-light bg-white navbar-expand-xl">
-                <a href="index.html" class="navbar-brand">
+        <div class="container">
+            <nav class="navbar navbar-light bg-white navbar-expand-xl pt-3">
+                <a href="../index.html" class="navbar-brand">
                     <h1 class="text-primary display-6">
-                        <img src="../images/icon/ca-phe-in-logo-1.png" width="150" alt="" />
+                        <img src="../images/icon/ca-phe-in-logo-1.png" alt="logo img"
+                            style="width: 100%; height: 100%;" />
                     </h1>
                 </a>
                 <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse"
@@ -61,13 +51,12 @@
                 </button>
                 <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
                     <div class="navbar-nav mx-auto fs-5">
-                        <a href="../index.html" class="nav-item nav-link fw-bold">Trang Chủ</a>
+                        <a href="#" class="nav-item nav-link active fw-bold">Trang Chủ</a>
                         <div class="nav-item dropdown">
-                            <a href="shop.html" class="nav-item nav-link active fw-bold"
-                                data-bs-toggle="dropdown">Menu</a>
+                            <a href="#" class="nav-item nav-link fw-bold" data-bs-toggle="dropdown">Menu</a>
                             <div class="dropdown-menu m-0 bg-secondary rounded-0">
                                 <a href="shop.html" class="dropdown-item">Đồ Uống</a>
-                                <a href="shop.html" class="dropdown-item">Sản Phẩm Từ Cà Phê</a>
+                                <a href="shop.htmll" class="dropdown-item">Sản Phẩm Từ Cà Phê</a>
                             </div>
                         </div>
                         <div class="nav-item dropdown">
@@ -101,7 +90,6 @@
     </div>
     <!-- Navbar End -->
 
-
     <!-- Modal Search Start -->
     <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-fullscreen">
@@ -122,178 +110,54 @@
     </div>
     <!-- Modal Search End -->
 
-
     <!-- Single Page Header start -->
-    <div class="container-fluid page-header py-5 d-flex flex-column justify-content-center">
-        <h1 class="text-center text-white display-6">Menu</h1>
+    <div class="container-fluid page-header py-5 mb-5 d-flex flex-column justify-content-center align-items-center">
+        <h1 class="text-center text-white display-6 mt-3">Chi Tiết Khuyến Mãi</h1>
         <ol class="breadcrumb justify-content-center mb-0">
             <li class="breadcrumb-item"><a href="../index.html">Trang chủ</a></li>
-            <li class="breadcrumb-item active text-white">Menu</li>
+            <li class="breadcrumb-item active text-white">Chi Tiết Khuyến Mãi</li>
         </ol>
     </div>
     <!-- Single Page Header End -->
 
-
-    <!-- Fruits Shop Start-->
-    <div class="container-fluid fruite py-5">
-        <div class="container py-5">
-            <h1 class="mb-4">Cà Phê In - Menu</h1>
-            <div class="row">
-                <!-- Danh mục bên trái -->
-                <div class="col-lg-3">
-                    <div class="sticky-category">
-                        <ul class="category-menu">
-                            <li><a href="#" data-category="all">Tất cả</a></li>
-                            <li><a href="#" data-category="moka"><i class="fas fa-coffee"></i> Moka</a></li>
-                            <li><a href="#" data-category="arabica"><i class="fas fa-coffee"></i> Arabica</a></li>
-                            <li><a href="#" data-category="robusta"><i class="fas fa-coffee"></i> Robusta</a></li>
-                            <li><a href="#" data-category="sanpham"><i class="fas fa-coffee"></i> Sản phẩm</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Đường kẻ -->
-                <div class="col-lg-1 divider"></div>
-
-                <!-- Sản phẩm -->
-                <div class="col-lg-8">
-                    <!-- Moka -->
-                    <div id="moka" class="product-section moka">
-                        <h2 class="mb-3">Moka</h2>
-                        <div class="row">
-                            <div class="col-md-6 col-lg-4 product-item">
-                                <a href="shop-detail.html">
-                                    <img src="../images/menu-arabica/arabica-den-da.png" alt="Moka Espresso Sữa Đá">
-                                    <p class="product-description">Arabica đen đá</p>
-                                    <p class="product-price">30.000 VND</p>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-lg-4 product-item">
-                                <a href="shop-detail.html">
-                                    <img src="../images/menu-arabica/arabica-expresso.png" alt="Moka Espresso Đen Đá">
-                                    <p class="product-description">Arabica Expresso</p>
-                                    <p class="product-price">30.000 VND</p>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-lg-4 product-item">
-                                <a href="shop-detail.html">
-                                    <img src="../images/menu-arabica/arabica-sua-da.png" alt="Moka Espresso Đen Đá">
-                                    <p class="product-description">Arabica sửa đá</p>
-                                    <p class="product-price">35.000 VND</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Arabica -->
-                    <div id="arabica" class="product-section arabica">
-                        <h2 class="mb-3">Arabica</h2>
-                        <div class="row">
-                            <div class="col-md-6 col-lg-4 product-item">
-                                <a href="shop-detail.html">
-                                    <img src="../images/menu-moka/moka-cappuccino.png" alt="Arabica Sữa Đá">
-                                    <p class="product-description">Moka Cappuccino</p>
-                                    <p class="product-price">35.000 VND</p>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-lg-4 product-item">
-                                <a href="shop-detail.html">
-                                    <img src="../images/menu-moka/moka-espresso-den-da-signature.png"
-                                        alt="Arabica Đen Đá">
-                                    <p class="product-description">Moka Espresso đen đá</p>
-                                    <p class="product-price">35.000 VND</p>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-lg-4 product-item">
-                                <a href="shop-detail.html">
-                                    <img src="../images/menu-moka/moka-espresso-sua-da-signature.png"
-                                        alt="Arabica Đen Đá">
-                                    <p class="product-description">Moka Espresso sữa đá</p>
-                                    <p class="product-price">35.000 VNĐ</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Robusta -->
-                    <div id="robusta" class="product-section robusta">
-                        <h2 class="mb-3">Robusta</h2>
-                        <div class="row">
-                            <div class="col-md-6 col-lg-4 product-item">
-                                <a href="shop-detail.html">
-                                    <img src="../images/menu-robusta/Robusta-den-da.png" alt="Robusta Sữa Đá">
-                                    <p class="product-description">Robusta đen đá</p>
-                                    <p class="product-price">30.000 VND</p>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-lg-4 product-item">
-                                <a href="shop-detail.html">
-                                    <img src="../images/menu-robusta/robusta-espresso.png" alt="Robusta Đen Đá">
-                                    <p class="product-description">Robusta Espresso</p>
-                                    <p class="product-price">30.000 VND</p>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-lg-4 product-item">
-                                <a href="shop-detail.html">
-                                    <img src="../images/menu-robusta/robusta-sua-da.png" alt="Robusta Đen Đá">
-                                    <p class="product-description">Robusta Sữa Đá</p>
-                                    <p class="product-price">35.000 VND</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- San Pham -->
-                    <div id="sanpham" class="product-section sanpham">
-                        <h2 class="mb-3">Sản phẩm từ cà phê</h2>
-                        <div class="row">
-                            <div class="col-md-6 col-lg-4 product-item">
-                                <a href="shop-detail.html">
-                                    <img src="../images/san-pham-ca-phe/ca-phe-arabica-rang-xay-nguyen-chat-500gr.png"
-                                        alt="Robusta Sữa Đá">
-                                    <p class="product-description">Robusta đen đá</p>
-                                    <p class="product-price">30.000 VND</p>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-lg-4 product-item">
-                                <a href="shop-detail.html">
-                                    <img src="../images/san-pham-ca-phe/ca-phe-moka-dong-lon-250ml.png"
-                                        alt="Robusta Đen Đá">
-                                    <p class="product-description">Robusta Espresso</p>
-                                    <p class="product-price">30.000 VND</p>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-lg-4 product-item">
-                                <a href="shop-detail.html">
-                                    <img src="../images/san-pham-ca-phe/ca-phe-moka-hoa-tan-100gr.png"
-                                        alt="Robusta Đen Đá">
-                                    <p class="product-description">Robusta Sữa Đá</p>
-                                    <p class="product-price">35.000 VND</p>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-lg-4 product-item">
-                                <a href="shop-detail.html">
-                                    <img src="../images/san-pham-ca-phe/ca-phe-moka-rang-xay-nguyen-chat-500gr.png"
-                                        alt="Robusta Đen Đá">
-                                    <p class="product-description">Robusta Sữa Đá</p>
-                                    <p class="product-price">35.000 VND</p>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-lg-4 product-item">
-                                <a href="shop-detail.html">
-                                    <img src="../images/san-pham-ca-phe/ca-phe-robusta-rang-xay-nguyen-chat-500gr.png"
-                                        alt="Robusta Đen Đá">
-                                    <p class="product-description">Robusta Sữa Đá</p>
-                                    <p class="product-price">35.000 VND</p>
-                                </a>
+    <!-- Main Content Start -->
+    <main class="container mt-5 mb-5 py-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="card border rounded">
+                            <div class="card-body">
+                                <div class="h-50 ms-auto me-auto mb-4">
+                                    <img src="../images/banner-khuyen-mai/banner-3.png" alt="..." class="img-fluid">
+                                </div>
+                                <div class="card-title mb-3 mt-3">
+                                    <h1 class="custom-font-color-a35f20 ms-3">
+                                        Giờ vàng - Giảm giá 20% cho tất cả đồ uống từ 9h - 15h
+                                    </h1>
+                                </div>
+                                <div class="card-text">
+                                    <p class="ms-3" style="font-size: 20px;">
+                                        Áp dụng cho tất cả khách hàng đến quán trong khung giờ vàng từ 9h đến 11h.
+                                    </p>
+                                    <p class="ms-3" style="font-size: 20px;">
+                                        Không giới hạn số lượng.
+                                    </p>
+                                    <p class="ms-3" style="font-size: 20px;">
+                                        Không cần mã giảm giá.
+                                    </p>
+                                    <p class="ms-3" style="font-size: 20px;">
+                                        Hạn sử dụng: Mỗi ngày.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Fruits Shop End-->
-
+    </main>
+    <!-- Main Content End -->
 
     <!-- Footer Start -->
     <div class="container-fluid text-white-50 footer pt-5 mt-5 custom-footer-container">
@@ -392,15 +256,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    <span class="text-dark"><a href="#"><i class="fas fa-copyright me-2"></i>Ca phe in</a>, All right
+                    <span class="text-dark"><a href="#"><i class="fas fa-copyright me-2"></i>Ca phe in</a>, All
+                        right
                         reserved.</span>
                 </div>
                 <!-- <div class="col-md-6 my-auto text-center text-md-end text-dark"> -->
                 <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
                 <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
                 <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                <!-- Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a
-                        class="border-bottom" href="https://themewagon.com">ThemeWagon</a> -->
+                <!-- Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By -->
+                <!-- <a class="border-bottom" href="https://themewagon.com">ThemeWagon</a> -->
                 <!-- </div> -->
             </div>
         </div>
@@ -409,9 +274,9 @@
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"
-        style="color: #FFFFFF; background-color: #a45e1e; border-color: #a45e1e !important"><i
-            class="fa fa-arrow-up">&nbsp;</i></a>
-
+        style="color: #FFFFFF; background-color: #a45e1e; border-color: #a45e1e !important">
+        <i class="fa fa-arrow-up">&nbsp;</i>
+    </a>
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -420,45 +285,8 @@
     <script src="../libraries/waypoints/waypoints.min.js"></script>
     <script src="../libraries/lightbox/js/lightbox.min.js"></script>
     <script src="../libraries/owlcarousel/owl.carousel.min.js"></script>
-
     <!-- Template Javascript -->
     <script src="../scripts/main.js"></script>
-    <!-- <script>
-        $(document).ready(function () {
-            $('.category-menu a').on('click', function (event) {
-                event.preventDefault();
-                var category = $(this).data('category');
-
-                if (category === 'all') {
-                    $('.product-section').show();
-                } else {
-                    $('.product-section').hide();
-                    $('.' + category).show();
-                }
-            });
-
-            // Set default view to show all products
-            $('.product-section').show();
-        });
-    </script> -->
-    <script>
-        $(document).ready(function () {
-            $('.category-menu a').on('click', function (event) {
-                event.preventDefault();
-                var category = $(this).data('category');
-
-                if (category === 'all') {
-                    $('.product-section').show();
-                } else {
-                    $('.product-section').hide();
-                    $('.' + category).show();
-                }
-            });
-
-            // Set default view to show all products
-            $('.product-section').show();
-        });
-    </script>
 </body>
 
 </html>
