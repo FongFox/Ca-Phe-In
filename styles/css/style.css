@@ -8,7 +8,8 @@
 }
 
 .custom-font-color-a35f20 {
-    color: #a35f20;
+    color: #a35f20 !important;
+
 }
 
 .custom-bg-f7fed8 {
