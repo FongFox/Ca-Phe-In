@@ -1082,8 +1082,8 @@ h4 {
 
 
 .border {
-    border-color: #a35f20;
-    border: 1px solid #a35f20;
+    border-color: #a35f20 !important;
+    border: 1px solid #a35f20 !important;
 }
 
 #sanpham_dactrung h4 {
