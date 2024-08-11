@@ -16,12 +16,12 @@
 }
 
 .custom-bg-img-about-ca-phe-in {
-    background: url(../images/coffee-beans-piled-wooden-tray.jpg);
-    background-size: cover;
+    background: url(../../images/hinh-khac/coffee-beans-piled-wooden-tray.jpg) !important;
+    background-size: cover !important;
 }
 
 .custom-blog-topic-bg-img {
-    background: url(../images/flat-lay-cups-coffee-beans-with-copy-space.jpg);
+    background: url(../../images/hinh-khac/flat-lay-cups-coffee-beans-with-copy-space.jpg);
     background-size: cover;
     background-position-y: 45%;
 }
@@ -128,7 +128,7 @@ body {
 }
 
 .header-bg {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../images/moka-tinh-hoa/video-moka-tinh-hoa.png") center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../../images/moka-tinh-hoa/video-moka-tinh-hoa.png") center center no-repeat;
     background-size: cover;
 }
 
@@ -647,7 +647,7 @@ body {
 
 .page-header {
     position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/DALL·E 2024-08-07 21.55.30 - A stylish and modern banner for a coffee shop website, designed to fit a navbar. The banner should feature a steaming cup of coffee, coffee beans, and.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/hinh-khac/DALL·E\ 2024-08-07\ 21.55.30\ -\ A\ stylish\ and\ modern\ banner\ for\ a\ coffee\ shop\ website\,\ designed\ to\ fit\ a\ navbar.\ The\ banner\ should\ feature\ a\ steaming\ cup\ of\ coffee\,\ coffee\ beans\,\ and.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
