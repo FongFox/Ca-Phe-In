@@ -1,0 +1,608 @@
+	<!DOCTYPE html>
+	<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Cà Phê In - Trang Chủ</title>
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<meta content="" name="keywords">
+		<meta content="" name="description">
+
+		<!-- AOS CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+		<!-- AOS JavaScript -->
+		<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+		<!-- Google Web Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600;800&display=swap" rel="stylesheet">
+
+		<!-- Icon Font Stylesheet -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+		<!-- Libraries Stylesheet -->
+		<link href="libraries/lightbox/css/lightbox.min.css" rel="stylesheet">
+		<link href="libraries/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+		<!-- Customized Bootstrap Stylesheet -->
+		<link href="styles/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Template Stylesheet -->
+		<link href="styles/css/custom-styles.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body id="container_body">
+
+		<!-- Spinner Start -->
+		<div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+			<div class="spinner-grow text-primary" role="status"></div>
+		</div>
+		<!-- Spinner End -->
+
+
+		<!-- Navbar start -->
+		<div class="container-fluid fixed-top" data-aos="fade-down">              
+			<div class="container px-0" style="margin-top: 15px;">
+				<nav class="navbar navbar-light bg-white navbar-expand-xl">
+					<a href="index.html" class="navbar-brand">
+						<h1 class="text-primary display-6">
+							<img src="images/icon/ca-phe-in-logo-1.png" width="210" alt="" />
+						</h1>
+					</a>
+					<button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+						<span class="fa fa-bars text-primary"></span>
+					</button>
+					<div class="collapse navbar-collapse bg-white" id="navbarCollapse">
+						<div class="navbar-nav mx-auto fs-5">
+							<a href="index.html" class="nav-item nav-link active">TRANG CHỦ</a>
+							<a href="pages/about-us.html" class="nav-item nav-link">VỀ CÀ PHÊ IN</a>
+							<div class="nav-item dropdown">
+								<a href="#" class="nav-item nav-link" data-bs-toggle="dropdown">MENU</a>
+								<div class="dropdown-menu m-0 bg-secondary rounded-0">
+									 <a href="pages/shop.html" class="dropdown-item">Đồ uống</a>
+									<a href="pages/shop.html" class="dropdown-item">Sản phẩm từ cà phê</a>
+								</div>
+							</div>
+							<div class="nav-item dropdown">
+								<a href="#" class="nav-item nav-link" data-bs-toggle="dropdown">VĂN HÓA CÀ PHÊ</a>
+								<div class="dropdown-menu m-0 bg-secondary rounded-0">
+									 <a href="pages/blog-detail-1.html" class="dropdown-item">VLOG 1</a>
+									<a href="pages/blog-detail-2.html" class="dropdown-item">VLOG 2</a>
+								</div>
+							</div>
+							<a href="pages/promotion-detail-1.html" class="nav-item nav-link">KHUYẾN MÃI</a>
+							<a href="pages/contact.html" class="nav-item nav-link">LIÊN HỆ</a>
+						</div>
+						<div class="d-flex m-3 me-0">
+							<button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search" style="color: #a35f20;"></i></button>
+							<a href="pages/cart.html" class="position-relative me-4 my-auto">
+								<i class="fa fa-shopping-bag fa-2x" style="color: #a35f20;"></i>
+								<span class="position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1" style="top: -5px; left: 15px; height: 20px; min-width: 20px;">3</span>
+							</a>
+							<a href="pages/login.html" class="my-auto">
+								<i class="fas fa-user fa-2x" style="color: #a35f20;"></i>
+							</a>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<!-- Navbar End -->
+
+
+		<!-- Modal Search Start -->
+		<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-fullscreen">
+				<div class="modal-content rounded-0">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body d-flex align-items-center">
+						<div class="input-group w-75 mx-auto d-flex">
+							<input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+							<span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal Search End -->
+
+
+		  <!-- Carousel Section Start -->
+    <div class="container-fluid py-5 mb-5" data-aos="fade-right">
+        <div class="container py-5">
+            <div id="carouselId" class="carousel slide position-relative" data-bs-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active rounded">
+                        <img src="images/banner-khuyen-mai/banner-1.png" class="img-fluid bg-secondary rounded" alt="First slide">
+                    </div>
+                    <div class="carousel-item rounded">
+                        <img src="images/banner-khuyen-mai/Banner-2.png" class="img-fluid  rounded" alt="Second slide">
+                    </div>
+					<div class="carousel-item rounded">
+                        <img src="images/banner-khuyen-mai/Banner-3.png" class="img-fluid  rounded" alt="Third slide">
+                    </div>
+					<div class="carousel-item rounded">
+                        <img src="images/banner-khuyen-mai/Banner-4.png" class="img-fluid  rounded" alt="foruth slide">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel Section End -->
+
+	<!-- Banner Section Start-->
+		<div class="container-fluid banner my-5 position-relative hero-body" id="banner_2" data-aos="zoom-in-up">
+			<div class="container position-relative" style="z-index: 1;">
+				<!-- Nội dung của bạn ở đây -->
+				<div class="container py-5">
+					<div class="row g-4 align-items-lg-center">
+						<div class="col-6">
+							<img src="images/san-pham-ca-phe/ca-phe-moka-dong-lon-250ml.png" width="100%" style="border-radius: 10px">
+						</div>
+						<div class="col-lg-6">
+							<div class="py-4">
+								<h1 class="display-3" style="color: #a35f20">Moka - Tinh hoa cà phê Việt</h1>
+								<p class="mb-4 text-dark" style="text-align: justify">Vùng Trung du với những điều kiện tự nhiên ưu đãi, đã trở thành cái nôi của cà phê Moka, nơi mà từng hạt cà phê đều chứa đựng tâm huyết của người nông dân và sự kỳ diệu của thiên nhiên. Đó là lý do vì sao cà phê Moka không chỉ là một sản phẩm nông nghiệp mà còn là niềm tự hào của người Việt Nam, là điểm nhấn đặc biệt trong hành trình khám phá hương vị cà phê đích thực.</p>
+								<a href="#" class="banner-btn btn border-2 rounded-pill py-3 px-5" style="border: 1px solid;">Thử ngay !</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Banner Section End -->
+		
+		<!-- Sản phẩm đặc trưng-->
+		<div class="container-fluid vesitable py-5" id="sanpham_dactrung" data-aos="fade-up">
+			<div class="container py-5">
+				<h1 class="display-4 text-dark" align="center" >Sản phẩm đặc trưng</h1>
+				<div class="owl-carousel vegetable-carousel justify-content-center">
+					<!--1 ô -->
+					<div class="border rounded position-relative vesitable-item" style="background-color: #">
+						<div class="vesitable-img">
+							<img src="images/menu-moka/moka-espresso-sua-da-signature.png" class="img-fluid w-100 rounded-top" alt="">
+						</div>
+						<div class="p-4 rounded-bottom">
+							<h4>Moka Sữa Đá</h4>
+							<div class="d-flex justify-content-between flex-lg-wrap">
+								<p class="fs-5 fw-bold mb-0">35.000 VNĐ</p>
+								<a href="#" class="btn border border-secondary rounded-pill d-flex justify-content-center align-items-center rounded-pill px-3">
+									<i class="fa fa-shopping-bag me-0"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- hết 1 ô-->
+					<!--1 ô -->
+					<div class="border  rounded position-relative vesitable-item">
+						<div class="vesitable-img">
+							<img src="images/menu-moka/moka-trung-signature.png" class="img-fluid w-100 rounded-top" alt="">
+						</div>
+						<div class="p-4 rounded-bottom">
+							<h4>Moka Trứng</h4>
+							<div class="d-flex justify-content-between flex-lg-wrap">
+								<p class=" fs-5 fw-bold mb-0">45.000 VNĐ</p>
+								<a href="#" class="btn border border-secondary rounded-pill d-flex justify-content-center align-items-center rounded-pill px-3">
+									<i class="fa fa-shopping-bag me-0"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- hết 1 ô-->
+					<!--1 ô -->
+					<div class="border rounded position-relative vesitable-item">
+						<div class="vesitable-img">
+							<img src="images/menu-moka/moka-kem-signature.png" class="img-fluid w-100 rounded-top" alt="">
+						</div>
+						<div class="p-4 rounded-bottom">
+							<h4>Moka Kem</h4>
+							<div class="d-flex justify-content-between flex-lg-wrap">
+								<p class=" fs-5 fw-bold mb-0">45.000 VNĐ</p>
+								<a href="#" class="btn border border-secondary rounded-pill d-flex justify-content-center align-items-center rounded-pill px-3">
+									<i class="fa fa-shopping-bag me-0"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- hết 1 ô-->
+					<!--1 ô -->
+					<div class="border rounded position-relative vesitable-item">
+						<div class="vesitable-img">
+							<img src="images/menu-moka/moka-sua-chua.png" class="img-fluid w-100 rounded-top" alt="">
+						</div>
+						<div class="p-4 rounded-bottom">
+							<h4>Moka Sữa Chua</h4>
+							<div class="d-flex justify-content-between flex-lg-wrap">
+								<p class="fs-5 fw-bold mb-0">40.000 VNĐ</p>
+								<a href="#" class="btn border border-secondary rounded-pill d-flex justify-content-center align-items-center rounded-pill px-3">
+									<i class="fa fa-shopping-bag me-0"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- hết 1 ô-->
+				</div>
+			</div>
+		</div>
+		<!--  Sản phẩm đặc trưng End -->
+
+		<!-- Sản phẩm bán chạy nhất Start -->
+		<div class="container-fluid py-5" id="sp_banchay" data-aos="zoom-in">
+			<div class="container py-5">
+				<div class="text-center mx-auto mb-5" style="max-width: 700px;">
+					<h1 class="display-4 text-danger">Sản phẩm bán chạy nhất</h1>
+					<p class="text-muted">Khám phá những sản phẩm được yêu thích nhất của chúng tôi với chất lượng tuyệt vời và giá cả hợp lý.</p>
+				</div>
+				<div class="row g-4">
+					<div class="col-lg-6 col-xl-4">
+						<div class="p-4 rounded bg-light shadow-sm">
+							<div class="row align-items-center">
+								<div class="col-6">
+									<img src="images/menu-arabica/arabica-sua-da.png" class="img-fluid rounded-circle w-100" alt="Arabica Sữa Đá">
+								</div>
+								<div class="col-6">
+									<h5 class=" fw-bold">Arabica Sữa Đá</h5>
+									<p class="text-muted">35.000 VNĐ</p>
+									<a href="#" class="btn btn-outline-primary rounded-pill px-3"><i class="fa fa-shopping-bag me-2"></i> Thêm vào giỏ</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-xl-4">
+						<div class="p-4 rounded bg-light shadow-sm">
+							<div class="row align-items-center">
+								<div class="col-6">
+									<img src="images/menu-moka/moka-kem-signature.png" class="img-fluid rounded-circle w-100" alt="Moka Kem">
+								</div>
+								<div class="col-6">
+									<h5 class=" fw-bold">Moka Kem</h5>
+									<p class="text-muted">45.000 VNĐ</p>
+									<a href="#" class="btn btn-outline-primary rounded-pill px-3"><i class="fa fa-shopping-bag me-2"></i> Thêm vào giỏ</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-xl-4">
+						<div class="p-4 rounded bg-light shadow-sm">
+							<div class="row align-items-center">
+								<div class="col-6">
+									<img src="images/menu-moka/moka-sua-chua.png" class="img-fluid rounded-circle w-100" alt="Moka Sữa Chua">
+								</div>
+								<div class="col-6">
+									<h5 class=" fw-bold">Moka Sữa Chua</h5>
+									<p class="text-muted">40.000 VNĐ</p>
+									<a href="#" class="btn btn-outline-primary rounded-pill px-3"><i class="fa fa-shopping-bag me-2"></i> Thêm vào giỏ</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-xl-4">
+						<div class="p-4 rounded bg-light shadow-sm">
+							<div class="row align-items-center">
+								<div class="col-6">
+									<img src="images/menu-robusta/robusta-sua-da.png" class="img-fluid rounded-circle w-100" alt="Robusta Sữa Đá">
+								</div>
+								<div class="col-6">
+									<h5 class=" fw-bold">Robusta Sữa Đá</h5>
+									<p class="text-muted">35.000 VNĐ</p>
+									<a href="#" class="btn btn-outline-primary rounded-pill px-3"><i class="fa fa-shopping-bag me-2"></i> Thêm vào giỏ</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-xl-4">
+						<div class="p-4 rounded bg-light shadow-sm">
+							<div class="row align-items-center">
+								<div class="col-6">
+									<img src="images/san-pham-ca-phe/ca-phe-moka-hoa-tan-100gr.png" class="img-fluid rounded-circle w-100" alt="Moka hòa tan">
+								</div>
+								<div class="col-6">
+									<h5 class=" fw-bold">Moka hòa tan</h5>
+									<p class="text-muted">55.000 VNĐ</p>
+									<a href="#" class="btn btn-outline-primary rounded-pill px-3"><i class="fa fa-shopping-bag me-2"></i> Thêm vào giỏ</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-xl-4">
+						<div class="p-4 rounded bg-light shadow-sm">
+							<div class="row align-items-center">
+								<div class="col-6">
+									<img src="images/san-pham-ca-phe/ca-phe-moka-dong-lon-250ml.png" class="img-fluid rounded-circle w-100" alt="Moka đóng lon">
+								</div>
+								<div class="col-6">
+									<h5 class=" fw-bold">Moka đóng lon</h5>
+									<p class="text-muted">15.000 VNĐ</p>
+									<a href="#" class="btn btn-outline-primary rounded-pill px-3"><i class="fa fa-shopping-bag me-2"></i> Thêm vào giỏ</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Bestsaler Product End -->
+
+		<!-- 3 loại cà phê đặc trưng -->
+		<div class="container-fluid service py-5" data-aos="fade-left">
+			<div class="container py-5">
+				<div class="text-center mb-5">
+					<h2 class="display-4 text-dark">3 loại cà phê đặc trưng</h2>
+					<p class="text-muted">Khám phá ba loại cà phê đặc trưng của chúng tôi với hương vị tuyệt vời và chất lượng cao.</p>
+				</div>
+				<div class="row g-4 justify-content-center">
+					<div class="col-md-6 col-lg-4">
+						<a href="#">
+							<div class="service-item position-relative bg-light rounded border-secondary shadow">
+								<img src="images/san-pham-ca-phe/ca-phe-arabica-rang-xay-nguyen-chat-500gr.png" class="img-fluid rounded-top w-100" alt="Arabica">
+								<div class="p-4 text-center">
+									<h5 class="text-secondary">Cà phê Arabica</h5>
+									<p class="text-muted">Hương vị dịu dàng, thanh thoát với chút vị chua nhẹ đặc trưng.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 col-lg-4">
+						<a href="#">
+							<div class="service-item position-relative bg-light rounded  border-dark shadow">
+								<img src="images/san-pham-ca-phe/ca-phe-moka-rang-xay-nguyen-chat-500gr.png" class="img-fluid rounded-top w-100" alt="Moka">
+								<div class="p-4 text-center">
+									<h5 class="text-secondary">Cà phê Moka</h5>
+									<p class="text-muted">Hương vị đậm đà, quyến rũ với hậu vị ngọt và sâu lắng.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 col-lg-4">
+						<a href="#">
+							<div class="service-item position-relative bg-light rounded  border-primary shadow">
+								<img src="images/san-pham-ca-phe/ca-phe-robusta-rang-xay-nguyen-chat-500gr.png" class="img-fluid rounded-top w-100" alt="Robusta">
+								<div class="p-4 text-center">
+									<h5 class="text-secondary">Cà phê Robusta</h5>
+									<p class="text-muted">Vị đắng mạnh mẽ, đậm đặc, phù hợp với gu cà phê đậm.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 3 loại cà phê đặc trưng End -->
+
+
+		<!-- Chi nhánh Start -->
+		<div class="container-fluid testimonial py-5" data-aos="fade-up">
+			<div class="container py-5">
+				<div class="testimonial-header text-center">
+					<h1 class="display-5 mb-5 text-dark">Chi nhánh</h1>
+				</div>
+				<div class="owl-carousel testimonial-carousel">
+					<div class="testimonial-item bg-light rounded p-4 shadow-sm">
+						<div class="d-flex align-items-center flex-nowrap">
+							<div class="bg-secondary rounded-circle overflow-hidden" style="width: 100px; height: 100px;">
+								<img src="images/hinh-anh-2-cua-hang/co-so-tt-1.png" class="img-fluid" alt="Cơ sở Thành Thái">
+							</div>
+							<div class="ms-4">
+								<h4 class="text-dark">Cơ sở Thành Thái</h4>
+								<p class="text-muted mb-1">Tp.Hồ Chí Minh</p>
+								<div class="d-flex">
+									<i class="fas fa-star text-primary"></i>
+									<i class="fas fa-star text-primary"></i>
+									<i class="fas fa-star text-primary"></i>
+									<i class="fas fa-star text-primary"></i>
+									<i class="fas fa-star text-primary"></i>
+								</div>
+							</div>
+						</div>
+						<div class="mt-4">
+							<p class="mb-0">Cơ sở với không gian rộng rãi, yên tĩnh, phù hợp cho học tập và làm việc.</p>
+						</div>
+					</div>
+					<div class="testimonial-item bg-light rounded p-4 shadow-sm">
+						<div class="d-flex align-items-center flex-nowrap">
+							<div class="bg-secondary rounded-circle overflow-hidden" style="width: 100px; height: 100px;">
+								<img src="images/hinh-anh-2-cua-hang/co-so-nvt-2.png" class="img-fluid" alt="Cơ Sở Nguyễn Văn Tráng">
+							</div>
+							<div class="ms-4">
+								<h4 class="text-dark">Cơ Sở Nguyễn Văn Tráng</h4>
+								<p class="text-muted mb-1">Tp.Hồ Chí Minh</p>
+								<div class="d-flex">
+									<i class="fas fa-star text-primary"></i>
+									<i class="fas fa-star text-primary"></i>
+									<i class="fas fa-star text-primary"></i>
+									<i class="fas fa-star text-primary"></i>
+									<i class="fas fa-star text-primary"></i>
+								</div>
+							</div>
+						</div>
+						<div class="mt-4">
+							<p class="mb-0">Vị trí trung tâm, thuận tiện cho việc di chuyển và gặp gỡ bạn bè.</p>
+						</div>
+					</div>
+					<div class="testimonial-item bg-light rounded p-4 shadow-sm">
+						<div class="d-flex align-items-center flex-nowrap">
+							<div class="bg-secondary rounded-circle overflow-hidden" style="width: 100px; height: 100px;">
+								<img src="images/hinh-anh-2-cua-hang/co-so-tt-2.png" class="img-fluid" alt="Cơ sở Quang Trung 2">
+							</div>
+							<div class="ms-4">
+								<h4 class="text-dark">Cơ sở Quang Trung 2</h4>
+								<p class="text-muted mb-1">Tp.Hồ Chí Minh</p>
+								<div class="d-flex">
+									<i class="fas fa-star text-primary"></i>
+									<i class="fas fa-star text-primary"></i>
+									<i class="fas fa-star text-primary"></i>
+									<i class="fas fa-star text-primary"></i>
+									<i class="fas fa-star text-primary"></i>
+								</div>
+							</div>
+						</div>
+						<div class="mt-4">
+							<p class="mb-0">Không gian ấm cúng, lý tưởng cho các buổi họp mặt gia đình.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Chi nhánh End -->
+
+		<!-- Tin tức Start -->
+<div class="container-fluid py-5 bg-light" data-aos="fade-right">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h1 class="display-5 text-dark">Văn hóa cà phê</h1>
+            <p class="text-muted">Khám phá những câu chuyện, tin tức mới nhất về cà phê và các hoạt động độc đáo mà chúng tôi mang đến cho cộng đồng yêu cà phê.</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="news-item bg-white rounded shadow-sm overflow-hidden">
+                    <img src="images/hinh-khac/coffee-banner-2.png" class="img-fluid" alt="Những ly cà phê đầy sáng tạo và nghệ thuật">
+                    <div class="p-4">
+                        <h5 class="text-primary mb-3">Nghệ thuật tạo hình trên cà phê</h5>
+                        <p class="text-muted">Khám phá nghệ thuật tạo hình trên bề mặt cà phê, một nghệ thuật đòi hỏi sự khéo léo và tinh tế từ những người thợ pha chế chuyên nghiệp.</p>
+                        <a href="#" class="text-decoration-none text-dark fw-bold">Đọc thêm <i class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="news-item bg-white rounded shadow-sm overflow-hidden">
+                    <img src="images/hinh-khac/coffee-banner-3.png" class="img-fluid" alt="Người nông dân chăm sóc vườn cà phê">
+                    <div class="p-4">
+                        <h5 class="text-primary mb-3">Cuộc sống người trồng cà phê</h5>
+                        <p class="text-muted">Chúng tôi chia sẻ câu chuyện về những người nông dân cần mẫn, những người đã tạo ra những hạt cà phê ngon lành, làm nền tảng cho mỗi tách cà phê chúng ta thưởng thức hàng ngày.</p>
+                        <a href="#" class="text-decoration-none text-dark fw-bold">Đọc thêm <i class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="news-item bg-white rounded shadow-sm overflow-hidden">
+                    <img src="images/hinh-khac/coffee-barrista-handmade.png" class="img-fluid" alt="Thợ pha chế đang tạo hình cà phê với sự tập trung cao độ">
+                    <div class="p-4">
+                        <h5 class="text-primary mb-3">Bí quyết pha chế cà phê ngon</h5>
+                        <p class="text-muted">Khám phá những bí quyết để pha chế một tách cà phê ngon như một barista thực thụ. Những kỹ thuật và mẹo nhỏ sẽ giúp bạn nâng tầm trải nghiệm cà phê tại nhà.</p>
+                        <a href="#" class="text-decoration-none text-dark fw-bold">Đọc thêm <i class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Tin tức End -->
+
+
+		<!-- Footer Start -->
+<div class="container-fluid text-white-50 footer pt-5 mt-5 custom-footer-container">
+    <div class="container py-5">
+        <div class="footer-divider"></div>
+        <div class="pb-4 mb-4">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-item">
+                        <h4 class="mb-3 custom-font-color-a35f20 fw-bold">Đăng ký nhận thông báo ưu đãi</h4>
+                        <div class="position-relative mx-auto m-2">
+                            <input class="form-control border-0 w-100 py-2 px-4 rounded-pill" type="email"
+                                placeholder="Your Email" style="text-align: left; background-color: white">
+                        </div>
+                        <a href="#" class="btn border-secondary py-2 px-4 rounded-pill" style="color: #a35f20">Theo dõi chúng tôi ngay!</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" style="margin-left: 50px">
+                    <div class="d-flex flex-column text-start footer-item">
+                        <h4 class="mb-3 custom-font-color-a35f20 fw-bold">Liên Hệ</h4>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2">
+                                <a href="#" class="nav-link p-0 text-body-secondary">
+                                    <img src="images/icon/telephone.png" alt="telephone icon" width="20" height="20">
+                                    <span class="footer_title" style="font-size: 20px; color: #555">1900 9999</span>
+                                </a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="#" class="nav-link p-0 text-body-secondary">
+                                    <img src="images/icon/mail.png" alt="mail icon" width="20" height="20">
+                                    <span class="footer_title" style="font-size: 20px; color: #555">support@caphein.com</span>
+                                </a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <div class="d-flex justify-content">
+                                    <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="">
+                                        <i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="">
+                                        <i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="">
+                                        <i class="fab fa-youtube"></i></a>
+                                    <a class="btn btn-outline-secondary btn-md-square rounded-circle" href="">
+                                        <i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 mx-4">
+                    <p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d18353.125872965225!2d106.68612177137999!3d10.770553252032016!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f7c1f1e61a1%3A0x3c95d1995da22151!2sHSU%20-%20IEE!5e0!3m2!1sen!2s!4v1723658962185!5m2!1sen!2s"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+		<!-- Copyright Start -->
+		<div class="container-fluid copyright py-4" style="background-color: #F7FED8">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+						<span class="text-dark"><a href="#"><i class="fas fa-copyright me-2"></i>Ca phe in</a>, All right reserved.</span>
+					</div>
+					<div class="col-md-6 my-auto text-center text-md-end text-dark">
+						<!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+						<!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+						<!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+						Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom" href="https://themewagon.com">ThemeWagon</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Copyright End -->
+
+		<!-- Back to Top -->
+		<a href="#" class="btn border-3 rounded-circle back-to-top" id="bt"><i class="fa fa-arrow-up"></i></a>
+
+		<!-- JavaScript Libraries -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="libraries/easing/easing.min.js"></script>
+		<script src="libraries/waypoints/waypoints.min.js"></script>
+		<script src="libraries/lightbox/js/lightbox.min.js"></script>
+		<script src="libraries/owlcarousel/owl.carousel.min.js"></script>
+
+		<!-- Template Javascript -->
+		<script src="scripts/main.js"></script>
+		<script>
+			AOS.init({
+				duration: 1200, // Thời gian thực hiện animation (ms)
+				once: true, // Chỉ thực hiện animation một lần
+			});
+		</script>
+
+	</body>
+
+	</html>

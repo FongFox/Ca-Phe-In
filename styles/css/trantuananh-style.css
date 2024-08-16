@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* shop-detail style */
+.vesitable .owl-nav .owl-prev {
+    position: absolute;
+    top: -8px;
+    right: 0;
+    color: #a45e1e;
+    padding: 5px 25px;
+    border: 1px solid #a45e1e;
+    border-radius: 20px;
+    transition: 0.5s;
+
+}
+
+.vesitable .owl-nav .owl-prev:hover {
+    background: #a45e1e;
+    color: var(--bs-white);
+}
+
+.vesitable .owl-nav .owl-next {
+    position: absolute;
+    top: -8px;
+    right: 88px;
+    color: #a45e1e;
+    padding: 5px 25px;
+    border: 1px solid #a45e1e;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.vesitable .owl-nav .owl-next:hover {
+    background: #a45e1e;
+    color: var(--bs-white);
+}
+
+.btn.border-secondary:hover {
+	background: #a45e1e !important;
+    color: var(--bs-white) !important;
+}
+
+.fa.fa-shopping-bag:hover {
+    background: #a45e1e !important;
+    color: var(--bs-white) !important;
+}
+
+.btn.border-secondary:hover {
+	background: #FFFFFF !important;
+    color: #a45e1e !important;
+}
+
+.btn.border.border-secondary.rounded-pill.px-4.py-3:hover {
+	background: #FFFFFF !important;
+    color: #a45e1e !important;
+}
+
+.btn.border.border-secondary.px-4.py-3.rounded-pill.w-100:hover {
+	background: #FFFFFF !important;
+    color: #a45e1e !important;
+}
+
+/* style for checkout */
+.form-check-input,
+.form-check-input.bg-primary.border-0 {
+	background-color: #a45e1e !important;
+	border: 1px #a45e1e solid !important;
+}
+
+.btn.border-secondary {
+	border: 1px #a45e1e solid !important;
+}
+
+.fw-bold.mb-3 {
+	color: #45595b
+}
