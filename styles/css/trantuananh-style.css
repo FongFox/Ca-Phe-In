@@ -47,18 +47,41 @@
 }
 
 .btn.border-secondary:hover {
-	background: #FFFFFF !important;
-    color: #a45e1e !important;
+	background: #a45e1e !important;
+    color: #FFFFFF !important;
 }
 
 .btn.border.border-secondary.rounded-pill.px-4.py-3:hover {
-	background: #FFFFFF !important;
-    color: #a45e1e !important;
+	background: #a45e1e !important;
+    color: #FFFFFF !important;
 }
 
 .btn.border.border-secondary.px-4.py-3.rounded-pill.w-100:hover {
-	background: #FFFFFF !important;
-    color: #a45e1e !important;
+	background: #a45e1e !important;
+    color: #FFFFFF !important;
+}
+
+.detail-header {
+	color: #45595b;
+}
+
+.btn.btn-sm.btn-plus.rounded-circle.bg-light.border:hover,
+.btn.btn-sm.btn-minus.rounded-circle.bg-light.border:hover {
+	background: #a45e1e !important;
+    color: #FFFFFF !important;
+}
+
+.signature {
+	margin-top: 0;
+    margin-bottom: .5rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #45595b
+}
+
+.signature:hover {
+	color: #a45e1e;
 }
 
 /* style for checkout */

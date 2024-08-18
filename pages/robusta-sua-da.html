@@ -34,8 +34,7 @@
     <link href="../styles/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link rel="stylesheet" href="../styles/css/style.css">
-    <link href="../styles/css/trantuananh-style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../styles/css/custom-styles.css">
 </head>
 
 <body>
@@ -51,54 +50,40 @@
     <!-- Navbar start -->
     <div class="container-fluid fixed-top">
         <div class="container px-0" style="margin-top: 15px;">
-            <nav class="navbar navbar-light bg-white navbar-expand-xl">
-                <a href="../index.html" class="navbar-brand">
-                    <h1 class="text-primary display-6">
-                        <img src="../images/icon/ca-phe-in-logo-1.png" width="150" alt="" />
-                    </h1>
-                </a>
-                <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars text-primary"></span>
-                </button>
-                <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
-                    <div class="navbar-nav mx-auto fs-5">
-                        <a href="#" class="nav-item nav-link active fw-bold">Trang Chủ</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-item nav-link fw-bold" data-bs-toggle="dropdown">Menu</a>
-                            <div class="dropdown-menu m-0 bg-secondary rounded-0">
-                                <a href="shop.html" class="dropdown-item">Đồ Uống</a>
-                                <a href="shop.htmll" class="dropdown-item">Sản Phẩm Từ Cà Phê</a>
-                            </div>
-                        </div>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-item nav-link fw-bold" data-bs-toggle="dropdown">Về Chúng Tôi</a>
-                            <div class="dropdown-menu m-0 bg-secondary rounded-0">
-                                <a href="about-us.html" class="dropdown-item">Về Cà Phê In</a>
-                                <a href="blogs.html" class="dropdown-item">Văn Hoá Cà Phê</a>
-                                <!-- <a href="#" class="dropdown-item">Khuyến Mãi</a> -->
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link fw-bold">Liên Hệ</a>
-                    </div>
-                    <div class="d-flex m-3 me-0">
-                        <button
-                            class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4"
-                            data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"
-                                style="color: #a35f20;"></i></button>
-                        <a href="#" class="position-relative me-4 my-auto">
-                            <i class="fa fa-shopping-bag fa-2x" style="color: #a35f20;"></i>
-                            <span
-                                class="position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1"
-                                style="top: -5px; left: 15px; height: 20px; min-width: 20px;">3</span>
-                        </a>
-                        <a href="#" class="my-auto">
-                            <i class="fas fa-user fa-2x" style="color: #a35f20;"></i>
-                        </a>
-                    </div>
-                </div>
-            </nav>
-        </div>
+				<nav class="navbar navbar-light bg-white navbar-expand-xl">
+					 <a href="../index.html" class="navbar-brand">
+						<img src="../images/icon/ca-phe-in-logo-1.png" alt="" />
+					</a>
+					<button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+						<span class="fa fa-bars text-primary"></span>
+					</button>
+					<div class="collapse navbar-collapse bg-white" id="navbarCollapse">
+						<div class="navbar-nav mx-auto fs-5">
+							<a href="../index.html" class="navbar-item nav-link">TRANG CHỦ</a>
+							<a href="../pages/about-us.html" class="navbar-item nav-link">VỀ CÀ PHÊ IN</a>
+							<div class="nav-item dropdown">
+								<a href="#" class="nav-item nav-link active" data-bs-toggle="dropdown">MENU <i class="fa fa-caret-down"></i></a>
+								<div class="dropdown-menu m-0 bg-secondary rounded-0">
+									<a href="../pages/shop.html" class="dropdown-item">Đồ uống</a>
+								</div>
+							</div>
+							<a href="../pages/blogs.html" class="navbar-item nav-link">VỀ CÀ PHÊ IN</a>	
+							<a href="../pages/promotion-detail-1.html" class="navbar-item nav-link">KHUYẾN MÃI</a>
+							<a href="../pages/contact.html" class="navbar-item nav-link">LIÊN HỆ</a>
+						</div>
+						<div class="d-flex m-3 me-0">
+							<button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search" style="color: #a35f20;"></i></button>
+							<a href="../pages/cart.html" class="position-relative me-4 my-auto">
+								<i class="fa fa-shopping-bag fa-2x" style="color: #a35f20;"></i>
+								<span class="position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1" style="top: -5px; left: 15px; height: 20px; min-width: 20px;">3</span>
+							</a>
+							<a href="../pages/login.html" class="my-auto">
+								<i class="fas fa-user fa-2x" style="color: #a35f20;"></i>
+							</a>
+						</div>
+					</div>
+				</nav>
+			</div>
     </div>
     <!-- Navbar End -->
 
@@ -124,18 +109,6 @@
     <!-- Modal Search End -->
 
 
-    <!-- Single Page Header start -->
-    <div class="container-fluid page-header py-5 d-flex flex-column justify-content-center">
-        <h1 class="text-center text-white display-6">Chi Tiết Sản Phẩm</h1>
-        <ol class="breadcrumb justify-content-center mb-0">
-            <li class="breadcrumb-item"><a href="../index.html">Trang chủ</a></li>
-            <li class="breadcrumb-item"><a href="shop.html">Menu</a></li>
-            <li class="breadcrumb-item active text-white">Arabica Espresso</li>
-        </ol>
-    </div>
-    <!-- Single Page Header End -->
-
-
             <!-- Single Product Start -->
         <div class="container-fluid py-5 mt-5">
             <div class="container py-5">
@@ -145,19 +118,18 @@
                             <div class="col-lg-6">
                                 <div class="rounded">
                                     <a href="#">
-                                        <img src="../images/menu-arabica/arabica-expresso.png" class="img-fluid rounded" alt="Image">
+                                        <img src="../images/menu-robusta/robusta-sua-da.png" class="img-fluid rounded" alt="Image">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                <h4 class="fw-bold mb-3">Robusta Sữa Đá</h4>
-                                <p class="mb-3" style="color: #45595b">Dòng: Robusta</p>
+                                <h4 class="fw-bold mb-3">Robusta&nbsp; Sữa Đá</h4>
+                                <p class="mb-3" style="color: #45595b">Loại: Robusta</p>
                                 <h5 class="fw-bold mb-3">35.000 VNĐ</h5>
-                                <p class="mb-4" style="color: #45595b">Cà phê Espresso Robusta pha với sữa tươi và đá, tạo nên vị <em>đậm đà, mát lạnh</em>.</p>
-                                <p class="mb-4" style="color: #45595b">Espresso Robusta combined with fresh milk and ice creates a rich, chilled flavor.</p>
+                                <p class="mb-4" style="color: #45595b; text-align: justify; text-justify: inter-word">Robusta Sữa Đá là một trong những món bán chạy nhất tại quán "Cà phê In," với sự kết hợp hoàn hảo giữa cà phê Robusta mạnh mẽ và sữa đặc ngọt ngào. Thức uống này mang lại sự tỉnh táo và sảng khoái, rất phù hợp cho những ai yêu thích cà phê mạnh.</p>
                                 <div class="input-group quantity mb-5" style="width: 100px;">
                                     <div class="input-group-btn">
-                                        <button class="btn btn-sm btn-minus rounded-circle bg-light border" >
+                                        <button class="btn btn-sm btn-minus rounded-circle bg-light border">
                                             <i class="fa fa-minus"></i>
                                         </button>
                                     </div>
@@ -183,10 +155,14 @@
                                 </nav>
                                 <div class="tab-content mb-5">
                                     <div class="tab-pane active" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
-                                        <p style="color: #45595b">Cà phê Espresso Robusta pha với sữa tươi và đá, tạo nên vị đậm đà, mát lạnh.</p>
-                                        <p style="color: #45595b">Espresso Robusta combined with fresh milk and ice creates a rich, chilled flavor.</p>
-                                        <div class="px-2">
-                                            <div class="row g-4">
+										<h5 class="detail-header">Thành Phần nguyên liệu</h5>
+										<ul type="disc">
+											<li style="color: #45595b;"><strong>Hạt cà phê Robusta:</strong> 30g - Vị mạnh mẽ, đắng đặc trưng.</li>
+											<li style="color: #45595b;"><strong>Sữa đặc:</strong> 40ml - Tạo độ ngọt và béo ngậy.</li>
+											<li style="color: #45595b;"><strong>Đá viên:</strong> Giữ cho thức uống mát lạnh.</li>
+										</ul>
+										<div class="px-2">
+                    						<div class="row g-4">
                                             </div>
                                         </div>
                                     </div>
@@ -209,7 +185,7 @@
                                                 <div class="d-flex justify-content-between">
                                                     <h5>Sam Peters</h5>
                                                 </div>
-                                                <p class="text-dark" style="color: #45595b">The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic 
+                                                <p style="color: #45595b">The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic 
                                                     words etc. Susp endisse ultricies nisi vel quam suscipit </p>
                                             </div>
                                         </div>
@@ -258,7 +234,7 @@
                                         <img src="../images/menu-moka/moka-espresso-sua-da-signature.png" class="img-fluid rounded" alt="Image">
                                     </div>
                                     <div>
-                                        <h6 class="mb-2" style="#a45e1e">Moka Espresso Sữa Đá</h6>
+										<h6 class="mb-2"><a href="../pages/moka-espresso-sua-da.html" class="signature">Moka Espresso Sữa Đá</a></h6>
                                         <div class="d-flex mb-2">
                                             <h5 class="fw-bold me-2">35.000 VNĐ</h5>
                                         </div>
@@ -269,7 +245,7 @@
                                         <img src="../images/menu-moka/moka-trung-signature.png" class="img-fluid rounded" alt="Image">
                                     </div>
                                     <div>
-                                        <h6 class="mb-2">Moka Trứng</h6>
+                                        <h6 class="mb-2"><a href="../pages/moka-trung.html" class="signature">Moka Trứng</a></h6>
                                         <div class="d-flex mb-2">
                                             <h5 class="fw-bold me-2">45.000 VNĐ</h5>
                                         </div>
@@ -280,7 +256,7 @@
                                         <img src="../images/menu-moka/moka-kem-signature.png" class="img-fluid rounded" alt="Image">
                                     </div>
                                     <div>
-                                        <h6 class="mb-2">Moka Kem</h6>
+                                        <h6 class="mb-2"><a href="../pages/moka-kem.html" class="signature">Moka Kem</a></h6>
                                         <div class="d-flex mb-2">
                                             <h5 class="fw-bold me-2">45.000 VNĐ</h5>
                                         </div>
@@ -291,7 +267,7 @@
                                         <img src="../images/menu-moka/moka-sua-chua.png" class="img-fluid rounded" alt="Image">
                                     </div>
                                     <div>
-                                        <h6 class="mb-2">Moka Sữa Chua</h6>
+                                        <h6 class="mb-2"><a href="../pages/moka-sua-chua.html" class="signature">Moka Sữa Chua</a></h6>
                                         <div class="d-flex mb-2">
                                             <h5 class="fw-bold me-2">40.000 VNĐ</h5>
                                         </div>
@@ -310,62 +286,65 @@
                     </div>
                 </div>
                 <h1 class="fw-bold mb-0">Có thể bạn sẽ thích</h1>
-                <div class="vesitable">
-                    <div class="owl-carousel vegetable-carousel justify-content-center">
-                        <div class="border border-secondary rounded position-relative vesitable-item" style="border-color: #a45e1e !important">
-                            <div class="vesitable-img">
-                                <img src="../images/menu-robusta/robusta-sua-da.png" class="img-fluid w-100 rounded-top" alt="">
-                            </div>
-                            <div class="text-white px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px; background-color: #a45e1e">Robusta</div>
-                            <div class="p-4 pb-0 rounded-bottom">
-                                <h4>Robusta Sữa Đá</h4>
-                                <div class="d-flex justify-content-between flex-lg-wrap">
-                                    <p class="text-dark fs-5 fw-bold">35.000 VNĐ / ly</p>
-                                    <a href="#" class="btn border border-secondary rounded-pill px-3 py-1 mb-4" style="color: #a45e1e; border-color: #a45e1e !important;"><i class="fa fa-shopping-bag me-2" style="color: #a45e1e"></i> Thêm vào giỏ hàng</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="border border-secondary rounded position-relative vesitable-item" style="border-color: #a45e1e !important">
-                            <div class="vesitable-img">
-                                <img src="../images/menu-arabica/arabica-sua-da.png" class="img-fluid w-100 rounded-top" alt="">
-                            </div>
-                            <div class="text-white px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px; background-color: #a45e1e">Arabica</div>
-                            <div class="p-4 pb-0 rounded-bottom">
-                                <h4>Arabica Sữa Đá</h4>
-                                <div class="d-flex justify-content-between flex-lg-wrap">
-                                    <p class="text-dark fs-5 fw-bold">35.000 VNĐ / ly</p>
-                                    <a href="#" class="btn border border-secondary rounded-pill px-3 py-1 mb-4" style="color: #a45e1e; border-color: #a45e1e !important;"><i class="fa fa-shopping-bag me-2" style="color: #a45e1e"></i> Thêm vào giỏ hàng</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="border border-secondary rounded position-relative vesitable-item" style="border-color: #a45e1e !important">
-                            <div class="vesitable-img">
-                                <img src="../images/menu-moka/moka-sua-chua.png" class="img-fluid w-100 rounded-top" alt="">
-                            </div>
-                            <div class="text-white px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px; background-color: #a45e1e">Moka</div>
-                            <div class="p-4 pb-0 rounded-bottom">
-                                <h4>Moka Sữa Chua</h4>
-                                <div class="d-flex justify-content-between flex-lg-wrap">
-                                    <p class="text-dark fs-5 fw-bold">40.000 VNĐ / ly</p>
-                                    <a href="#" class="btn border border-secondary rounded-pill px-3 py-1 mb-4" style="color: #a45e1e; border-color: #a45e1e !important;"><i class="fa fa-shopping-bag me-2" style="color: #a45e1e"></i> Thêm vào giỏ hàng</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="border border-secondary rounded position-relative vesitable-item" style="border-color: #a45e1e !important">
-                            <div class="vesitable-img">
-                                <img src="../images/menu-moka/moka-kem-signature.png" class="img-fluid w-100 rounded-top" alt="">
-                            </div>
-                            <div class="text-white px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px; background-color: #a45e1e">Moka</div>
-                            <div class="p-4 pb-0 rounded-bottom">
-                                <h4>Moka Kem</h4>
-                                <div class="d-flex justify-content-between flex-lg-wrap">
-                                    <p class="text-dark fs-5 fw-bold">45.000 VNĐ / ly</p>
-                                    <a href="#" class="btn border border-secondary rounded-pill px-3 py-1 mb-4" style="color: #a45e1e; border-color: #a45e1e !important;"><i class="fa fa-shopping-bag me-2" style="color: #a45e1e"></i> Thêm vào giỏ hàng</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <div class="unique-vesitable" style="margin-top: 30px;">
+					<div class="owl-carousel vegetable-carousel justify-content-center">
+						<div class="border border-secondary rounded position-relative unique-vesitable-item" style="border-color: #a45e1e !important">
+							<div class="unique-vesitable-img">
+								<img src="../images/menu-robusta/robusta-sua-da.png" class="img-fluid w-100 rounded-top" alt="Robusta Sữa Đá">
+							</div>
+							<div class="text-white px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px; background-color: #a45e1e">Robusta</div>
+							<div class="p-4 pb-0 rounded-bottom">
+								<h4>Robusta Sữa Đá</h4>
+								<div class="d-flex justify-content-between flex-lg-wrap">
+									<p class="text-muted fs-5 fw-bold unique-price">35.000 VNĐ / ly</p>
+									<a href="robusta-sua-da.html" class="btn border border-secondary rounded-pill px-3 py-1 mb-4" style="color: #a45e1e; border-color: #a45e1e !important;"><i class="fa fa-shopping-bag me-2" style="color: #a45e1e"></i> Thêm vào giỏ hàng</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="border border-secondary rounded position-relative unique-vesitable-item" style="border-color: #a45e1e !important">
+							<div class="unique-vesitable-img">
+								<img src="../images/menu-arabica/arabica-sua-da.png" class="img-fluid w-100 rounded-top" alt="Arabica Sữa Đá">
+							</div>
+							<div class="text-white px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px; background-color: #a45e1e">Arabica</div>
+							<div class="p-4 pb-0 rounded-bottom">
+								<h4>Arabica Sữa Đá</h4>
+								<div class="d-flex justify-content-between flex-lg-wrap">
+									<p class="text-muted fs-5 fw-bold unique-price">35.000 VNĐ / ly</p>
+									<a href="arabica-sua-da.html" class="btn border border-secondary rounded-pill px-3 py-1 mb-4" style="color: #a45e1e; border-color: #a45e1e !important;"><i class="fa fa-shopping-bag me-2" style="color: #a45e1e"></i> Thêm vào giỏ hàng</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="border border-secondary rounded position-relative unique-vesitable-item" style="border-color: #a45e1e !important">
+							<div class="unique-vesitable-img">
+								<img src="../images/menu-moka/moka-sua-chua.png" class="img-fluid w-100 rounded-top" alt="Moka Sữa Chua">
+							</div>
+							<div class="text-white px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px; background-color: #a45e1e">Moka</div>
+							<div class="p-4 pb-0 rounded-bottom">
+								<h4>Moka Sữa Chua</h4>
+								<div class="d-flex justify-content-between flex-lg-wrap">
+									<p class="text-muted fs-5 fw-bold unique-price">40.000 VNĐ / ly</p>
+									<a href="moka-sua-chua.html" class="btn border border-secondary rounded-pill px-3 py-1 mb-4" style="color: #a45e1e; border-color: #a45e1e !important;"><i class="fa fa-shopping-bag me-2" style="color: #a45e1e"></i> Thêm vào giỏ hàng</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="border border-secondary rounded position-relative unique-vesitable-item" style="border-color: #a45e1e !important">
+							<div class="unique-vesitable-img">
+								<img src="../images/menu-moka/moka-kem-signature.png" class="img-fluid w-100 rounded-top" alt="Moka Kem">
+							</div>
+							<div class="text-white px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px; background-color: #a45e1e">Moka</div>
+							<div class="p-4 pb-0 rounded-bottom">
+								<h4>Moka Kem</h4>
+								<div class="d-flex justify-content-between flex-lg-wrap">
+									<p class="text-muted fs-5 fw-bold unique-price">45.000 VNĐ / ly</p>
+									<a href="moka-kem.html" class="btn border border-secondary rounded-pill px-3 py-1 mb-4" style="color: #a45e1e; border-color: #a45e1e !important;"><i class="fa fa-shopping-bag me-2" style="color: #a45e1e"></i> Thêm vào giỏ hàng</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
             </div>
         </div>
         <!-- Single Product End -->
@@ -377,7 +356,7 @@
         <div class="footer-divider"></div>
         <div class="pb-4 mb-4">
             <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6 col-12 mt-4 mt-md-0">
                     <div class="footer-item">
                         <h4 class="mb-3 custom-font-color-a35f20 fw-bold">Đăng ký nhận thông báo ưu đãi</h4>
                         <div class="position-relative mx-auto m-2">
@@ -387,43 +366,35 @@
                         <a href="#" class="btn border-secondary py-2 px-4 rounded-pill" style="color: #a35f20">Theo dõi chúng tôi ngay!</a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6" style="margin-left: 50px">
-                    <div class="d-flex flex-column text-start footer-item">
+                <div class="col-lg-3 col-md-6 col-12 mt-4 mt-md-0">
+                    <div class="footer-item" style="margin-left: 30px;">
                         <h4 class="mb-3 custom-font-color-a35f20 fw-bold">Liên Hệ</h4>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2">
-                                <a href="#" class="nav-link p-0 text-body-secondary">
-                                    <img src="../images/icon/telephone.png" alt="telephone icon" width="20" height="20">
-                                    <span class="footer_title" style="font-size: 20px; color: #555">1900 9999</span>
-                                </a>
+                            <li class="nav-item mb-2 d-flex align-items-center">
+                                <img src="../images/icon/telephone.png" alt="telephone icon" width="20" height="20" class="me-2">
+                                <span class="footer_title" style="font-size: 20px; color: #555">1900 7777</span>
                             </li>
-                            <li class="nav-item mb-2">
-                                <a href="#" class="nav-link p-0 text-body-secondary">
-                                    <img src="../images/icon/mail.png" alt="mail icon" width="20" height="20">
-                                    <span class="footer_title" style="font-size: 20px; color: #555">support@caphein.com</span>
-                                </a>
-                            </li>
-                            <li class="nav-item mb-2">
-                                <div class="d-flex justify-content">
-                                    <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="">
-                                        <i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="">
-                                        <i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="">
-                                        <i class="fab fa-youtube"></i></a>
-                                    <a class="btn btn-outline-secondary btn-md-square rounded-circle" href="">
-                                        <i class="fab fa-linkedin-in"></i></a>
-                                </div>
+                            <li class="nav-item mb-2 d-flex align-items-center">
+                                <img src="../images/icon/mail.png" alt="mail icon" width="20" height="20" class="me-2">
+                                <span class="footer_title" style="font-size: 20px; color: #555">support@caphein.com</span>
                             </li>
                         </ul>
+                        <div class="d-flex justify-content-start mt-3">
+                            <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="">
+                                <i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="">
+                                <i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="">
+                                <i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-secondary btn-md-square rounded-circle" href="">
+                                <i class="fab fa-linkedin-in"></i></a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mx-4">
-                    <p>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d18353.125872965225!2d106.68612177137999!3d10.770553252032016!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f7c1f1e61a1%3A0x3c95d1995da22151!2sHSU%20-%20IEE!5e0!3m2!1sen!2s!4v1723658962185!5m2!1sen!2s"
+                <div class="col-lg-5 col-12 mt-4 mt-lg-0">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d18353.125872965225!2d106.68612177137999!3d10.770553252032016!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f7c1f1e61a1%3A0x3c95d1995da22151!2sHSU%20-%20IEE!5e0!3m2!1sen!2s!4v1723658962185!5m2!1sen!2s"
                             width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </p>
                 </div>
             </div>
         </div>

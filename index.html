@@ -26,6 +26,7 @@
 		<!-- Libraries Stylesheet -->
 		<link href="libraries/lightbox/css/lightbox.min.css" rel="stylesheet">
 		<link href="libraries/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
 
 		<!-- Customized Bootstrap Stylesheet -->
@@ -48,34 +49,35 @@
 		<div class="container-fluid fixed-top" data-aos="fade-down">              
 			<div class="container px-0" style="margin-top: 15px;">
 				<nav class="navbar navbar-light bg-white navbar-expand-xl">
-					<a href="index.html" class="navbar-brand">
-						<h1 class="text-primary display-6">
-							<img src="images/icon/ca-phe-in-logo-1.png" width="210" alt="" />
-						</h1>
+					 <a href="index.html" class="navbar-brand">
+						<img src="images/icon/ca-phe-in-logo-1.png" alt="" />
 					</a>
 					<button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
 						<span class="fa fa-bars text-primary"></span>
 					</button>
 					<div class="collapse navbar-collapse bg-white" id="navbarCollapse">
 						<div class="navbar-nav mx-auto fs-5">
-							<a href="index.html" class="nav-item nav-link active">TRANG CHỦ</a>
-							<a href="pages/about-us.html" class="nav-item nav-link">VỀ CÀ PHÊ IN</a>
+							<a href="#" class="navbar-item nav-link active">TRANG CHỦ</a>
+							<a href="./pages/about-us.html" class="navbar-item nav-link">VỀ CÀ PHÊ IN</a>
 							<div class="nav-item dropdown">
-								<a href="#" class="nav-item nav-link" data-bs-toggle="dropdown">MENU</a>
+								<a href="#" class="nav-item nav-link" data-bs-toggle="dropdown">MENU <i class="fa fa-caret-down"></i></a>
 								<div class="dropdown-menu m-0 bg-secondary rounded-0">
-									 <a href="pages/shop.html" class="dropdown-item">Đồ uống</a>
-									<a href="pages/shop.html" class="dropdown-item">Sản phẩm từ cà phê</a>
+									<a href="./pages/shop.html" class="dropdown-item">Đồ uống</a>
+<!--									<a href="../pages/shop.html" class="dropdown-item">Sản phẩm từ cà phê</a>-->
 								</div>
 							</div>
+							<a href="pages/blogs.html" class="navbar-item nav-link">VỀ CÀ PHÊ IN</a>	
+<!--				
 							<div class="nav-item dropdown">
-								<a href="#" class="nav-item nav-link" data-bs-toggle="dropdown">VĂN HÓA CÀ PHÊ</a>
+								<a href="pages/blogs.html" class="nav-item nav-link" data-bs-toggle="dropdown">VĂN HÓA CÀ PHÊ <i class="fa fa-caret-down"></i></a>
 								<div class="dropdown-menu m-0 bg-secondary rounded-0">
-									 <a href="pages/blog-detail-1.html" class="dropdown-item">VLOG 1</a>
-									<a href="pages/blog-detail-2.html" class="dropdown-item">VLOG 2</a>
+									<a href="pages/blog-detail-1.html" class="dropdown-item">Hành trình từ hạt đến tách</a>
+									<a href="pages/blog-detail-2.html" class="dropdown-item">Hành trình khám phá cà phê</a>
 								</div>
 							</div>
-							<a href="pages/promotion-detail-1.html" class="nav-item nav-link">KHUYẾN MÃI</a>
-							<a href="pages/contact.html" class="nav-item nav-link">LIÊN HỆ</a>
+-->
+							<a href="pages/promotion-detail-1.html" class="navbar-item nav-link">KHUYẾN MÃI</a>
+							<a href="pages/contact.html" class="navbar-item nav-link">LIÊN HỆ</a>
 						</div>
 						<div class="d-flex m-3 me-0">
 							<button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search" style="color: #a35f20;"></i></button>
@@ -113,52 +115,51 @@
 		</div>
 		<!-- Modal Search End -->
 
+		 <!-- Carousel Section Start -->
+		<div class="container-fluid py-5 mb-5" data-aos="fade-right">
+			<div class="container py-5">
+				<div id="carouselId" class="carousel slide position-relative" data-bs-ride="carousel">
+					<div class="carousel-inner" role="listbox">
+						<div class="carousel-item active rounded">
+							<img src="images/banner-khuyen-mai/banner-1.png" class="img-fluid bg-secondary rounded" alt="First slide">
+						</div>
+						<div class="carousel-item rounded">
+							<img src="images/banner-khuyen-mai/banner-2.png" class="img-fluid  rounded" alt="Second slide">
+						</div>
+						<div class="carousel-item rounded">
+							<img src="images/banner-khuyen-mai/banner-3.png" class="img-fluid  rounded" alt="Third slide">
+						</div>
+						<div class="carousel-item rounded">
+							<img src="images/banner-khuyen-mai/banner-4.png" class="img-fluid  rounded" alt="Fourth slide">
+						</div>
+					</div>
+					<div class="carousel-indicators">
+						<button type="button" data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						<button type="button" data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						<button type="button" data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Slide 4"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Carousel Section End -->
 
-		  <!-- Carousel Section Start -->
-    <div class="container-fluid py-5 mb-5" data-aos="fade-right">
-        <div class="container py-5">
-            <div id="carouselId" class="carousel slide position-relative" data-bs-ride="carousel">
-                <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active rounded">
-                        <img src="images/banner-khuyen-mai/banner-1.png" class="img-fluid bg-secondary rounded" alt="First slide">
-                    </div>
-                    <div class="carousel-item rounded">
-                        <img src="images/banner-khuyen-mai/banner-2.png" class="img-fluid  rounded" alt="Second slide">
-                    </div>
-					<div class="carousel-item rounded">
-                        <img src="images/banner-khuyen-mai/banner-3.png" class="img-fluid  rounded" alt="Third slide">
-                    </div>
-					<div class="carousel-item rounded">
-                        <img src="images/banner-khuyen-mai/banner-4.png" class="img-fluid  rounded" alt="foruth slide">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-    </div>
-    <!-- Carousel Section End -->
-
-	<!-- Banner Section Start-->
+		<!-- Banner Section Start -->
 		<div class="container-fluid banner my-5 position-relative hero-body" id="banner_2" data-aos="zoom-in-up">
 			<div class="container position-relative" style="z-index: 1;">
-				<!-- Nội dung của bạn ở đây -->
 				<div class="container py-5">
 					<div class="row g-4 align-items-lg-center">
-						<div class="col-6">
-							<img src="images/san-pham-ca-phe/ca-phe-moka-dong-lon-250ml.png" width="100%" style="border-radius: 10px">
+						<div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+							<img src="images/san-pham-ca-phe/ca-phe-moka-dong-lon-250ml.png" class="img-fluid"
+								 style="border-radius: 5px;">
 						</div>
-						<div class="col-lg-6">
+						<div class="col-12 col-md-6 d-flex flex-column justify-content-center" style="margin: 20px 0;">
 							<div class="py-4">
-								<h1 class="display-3" style="color: #a35f20">Moka - Tinh hoa cà phê Việt</h1>
-								<p class="mb-4 text-dark" style="text-align: justify">Vùng Trung du với những điều kiện tự nhiên ưu đãi, đã trở thành cái nôi của cà phê Moka, nơi mà từng hạt cà phê đều chứa đựng tâm huyết của người nông dân và sự kỳ diệu của thiên nhiên. Đó là lý do vì sao cà phê Moka không chỉ là một sản phẩm nông nghiệp mà còn là niềm tự hào của người Việt Nam, là điểm nhấn đặc biệt trong hành trình khám phá hương vị cà phê đích thực.</p>
-								<a href="#" class="banner-btn btn border-2 rounded-pill py-3 px-5" style="border: 1px solid;">Thử ngay !</a>
+								<h1 class="display-4" style="color: #a35f20; text-align: left">Moka - Tinh hoa cà <br>phê Việt</h1>
+								<p class="mb-4 text-dark " style="color: #45595b !important; margin-top: 20px; text-align: justify; ">
+									Vùng Trung du với những điều kiện tự nhiên ưu đãi, đã trở thành cái nôi của cà phê Moka, nơi mà từng hạt cà phê đều chứa đựng tâm huyết của người nông dân và sự kỳ diệu của thiên nhiên. Đó là lý do vì sao cà phê Moka không chỉ là một sản phẩm nông nghiệp mà còn là niềm tự hào của người Việt Nam, là điểm nhấn đặc biệt trong hành trình khám phá hương vị cà phê đích thực.
+								</p>
+								<a href="pages/shop.html#sanpham" class="banner-btn btn border-2 rounded-pill py-3 px-5" style="border: 1px solid; width: 100%; max-width: 250px; margin-top: 20px; margin-left: auto; margin-right: auto;">Thử ngay!</a>
 							</div>
 						</div>
 					</div>
@@ -166,14 +167,14 @@
 			</div>
 		</div>
 		<!-- Banner Section End -->
-		
+	
 		<!-- Sản phẩm đặc trưng-->
-		<div class="container-fluid vesitable py-5" id="sanpham_dactrung" data-aos="fade-up">
+		<div class="container-fluid vesitable py-5" id="sanpham_dactrung" >
 			<div class="container py-5">
 				<h1 class="display-4 text-dark" align="center" >Sản phẩm đặc trưng</h1>
 				<div class="owl-carousel vegetable-carousel justify-content-center">
 					<!--1 ô -->
-					<div class="border rounded position-relative vesitable-item" style="background-color: #">
+					<div class="border rounded position-relative vesitable-item">
 						<div class="vesitable-img">
 							<img src="images/menu-moka/moka-espresso-sua-da-signature.png" class="img-fluid w-100 rounded-top" alt="">
 						</div>
@@ -242,7 +243,7 @@
 		<!--  Sản phẩm đặc trưng End -->
 
 		<!-- Sản phẩm bán chạy nhất Start -->
-		<div class="container-fluid py-5" id="sp_banchay" data-aos="zoom-in">
+		<div class="container-fluid py-5" id="sp_banchay">
 			<div class="container py-5">
 				<div class="text-center mx-auto mb-5" style="max-width: 700px;">
 					<h1 class="display-4 text-danger">Sản phẩm bán chạy nhất</h1>
@@ -474,7 +475,7 @@
                     <div class="p-4">
                         <h5 class="text-primary mb-3">Nghệ thuật tạo hình trên cà phê</h5>
                         <p class="text-muted">Khám phá nghệ thuật tạo hình trên bề mặt cà phê, một nghệ thuật đòi hỏi sự khéo léo và tinh tế từ những người thợ pha chế chuyên nghiệp.</p>
-                        <a href="#" class="text-decoration-none text-dark fw-bold">Đọc thêm <i class="fas fa-arrow-right ms-2"></i></a>
+                        <a href="pages/blog-detail-1.html" class="text-decoration-none text-dark fw-bold">Đọc thêm <i class="fas fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -484,7 +485,7 @@
                     <div class="p-4">
                         <h5 class="text-primary mb-3">Cuộc sống người trồng cà phê</h5>
                         <p class="text-muted">Chúng tôi chia sẻ câu chuyện về những người nông dân cần mẫn, những người đã tạo ra những hạt cà phê ngon lành, làm nền tảng cho mỗi tách cà phê chúng ta thưởng thức hàng ngày.</p>
-                        <a href="#" class="text-decoration-none text-dark fw-bold">Đọc thêm <i class="fas fa-arrow-right ms-2"></i></a>
+                        <a href="pages/blog-detail-2.html" class="text-decoration-none text-dark fw-bold">Đọc thêm <i class="fas fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -494,7 +495,7 @@
                     <div class="p-4">
                         <h5 class="text-primary mb-3">Bí quyết pha chế cà phê ngon</h5>
                         <p class="text-muted">Khám phá những bí quyết để pha chế một tách cà phê ngon như một barista thực thụ. Những kỹ thuật và mẹo nhỏ sẽ giúp bạn nâng tầm trải nghiệm cà phê tại nhà.</p>
-                        <a href="#" class="text-decoration-none text-dark fw-bold">Đọc thêm <i class="fas fa-arrow-right ms-2"></i></a>
+                        <a href="pages/blog-detail-3.html" class="text-decoration-none text-dark fw-bold">Đọc thêm <i class="fas fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -504,13 +505,13 @@
 <!-- Tin tức End -->
 
 
-		<!-- Footer Start -->
+<!-- Footer Start -->
 <div class="container-fluid text-white-50 footer pt-5 mt-5 custom-footer-container">
     <div class="container py-5">
         <div class="footer-divider"></div>
         <div class="pb-4 mb-4">
             <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6 col-12 mt-4 mt-md-0">
                     <div class="footer-item">
                         <h4 class="mb-3 custom-font-color-a35f20 fw-bold">Đăng ký nhận thông báo ưu đãi</h4>
                         <div class="position-relative mx-auto m-2">
@@ -520,43 +521,35 @@
                         <a href="#" class="btn border-secondary py-2 px-4 rounded-pill" style="color: #a35f20">Theo dõi chúng tôi ngay!</a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6" style="margin-left: 50px">
-                    <div class="d-flex flex-column text-start footer-item">
+                <div class="col-lg-3 col-md-6 col-12 mt-4 mt-md-0">
+                    <div class="footer-item" style="margin-left: 30px;">
                         <h4 class="mb-3 custom-font-color-a35f20 fw-bold">Liên Hệ</h4>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2">
-                                <a href="#" class="nav-link p-0 text-body-secondary">
-                                    <img src="images/icon/telephone.png" alt="telephone icon" width="20" height="20">
-                                    <span class="footer_title" style="font-size: 20px; color: #555">1900 9999</span>
-                                </a>
+                            <li class="nav-item mb-2 d-flex align-items-center">
+                                <img src="images/icon/telephone.png" alt="telephone icon" width="20" height="20" class="me-2">
+                                <span class="footer_title" style="font-size: 20px; color: #555">1900 7777</span>
                             </li>
-                            <li class="nav-item mb-2">
-                                <a href="#" class="nav-link p-0 text-body-secondary">
-                                    <img src="images/icon/mail.png" alt="mail icon" width="20" height="20">
-                                    <span class="footer_title" style="font-size: 20px; color: #555">support@caphein.com</span>
-                                </a>
-                            </li>
-                            <li class="nav-item mb-2">
-                                <div class="d-flex justify-content">
-                                    <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="">
-                                        <i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="">
-                                        <i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="">
-                                        <i class="fab fa-youtube"></i></a>
-                                    <a class="btn btn-outline-secondary btn-md-square rounded-circle" href="">
-                                        <i class="fab fa-linkedin-in"></i></a>
-                                </div>
+                            <li class="nav-item mb-2 d-flex align-items-center">
+                                <img src="images/icon/mail.png" alt="mail icon" width="20" height="20" class="me-2">
+                                <span class="footer_title" style="font-size: 20px; color: #555">support@caphein.com</span>
                             </li>
                         </ul>
+                        <div class="d-flex justify-content-start mt-3">
+                            <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="">
+                                <i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="">
+                                <i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="">
+                                <i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-secondary btn-md-square rounded-circle" href="">
+                                <i class="fab fa-linkedin-in"></i></a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mx-4">
-                    <p>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d18353.125872965225!2d106.68612177137999!3d10.770553252032016!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f7c1f1e61a1%3A0x3c95d1995da22151!2sHSU%20-%20IEE!5e0!3m2!1sen!2s!4v1723658962185!5m2!1sen!2s"
+                <div class="col-lg-5 col-12 mt-4 mt-lg-0">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d18353.125872965225!2d106.68612177137999!3d10.770553252032016!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f7c1f1e61a1%3A0x3c95d1995da22151!2sHSU%20-%20IEE!5e0!3m2!1sen!2s!4v1723658962185!5m2!1sen!2s"
                             width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </p>
                 </div>
             </div>
         </div>
@@ -576,7 +569,7 @@
 						<!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
 						<!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
 						<!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-						Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom" href="https://themewagon.com">ThemeWagon</a>
+<!--						Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom" href="https://themewagon.com">ThemeWagon</a>-->
 					</div>
 				</div>
 			</div>
