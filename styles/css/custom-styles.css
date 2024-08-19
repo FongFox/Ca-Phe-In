@@ -27,6 +27,53 @@ body {
     margin-bottom: 20px;
 }
 
+/* Enhance button styles */
+.btn-next, .btn-search, .custom-order-button {
+    background-color: #a35f20;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-next:hover, .btn-search:hover, .custom-order-button:hover {
+    background-color: #8b4e18;
+    transform: scale(1.05);
+}
+
+/* Card enhancements */
+.card {
+    border: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-title h1 {
+    font-size: 2.5rem;
+    color: #a35f20;
+    margin-bottom: 1rem;
+}
+
+.card-text p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+/* Responsive Image Styling */
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
 
 
 
@@ -56,15 +103,6 @@ body {
     .footer-item span {
         font-size: 1rem;
     }
-}
-.card {
-    border: none !important; /* Loại bỏ border của thẻ card */
-    box-shadow: none !important; /* Loại bỏ shadow nếu có */
-}
-
-.card-body {
-    border: none !important; /* Loại bỏ border của thẻ card-body nếu có */
-    box-shadow: none !important; /* Loại bỏ shadow nếu có */
 }
 
 .signature:hover{
