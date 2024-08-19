@@ -8,6 +8,65 @@ body {
   overflow-x: hidden;
 }
 
+
+/* Custom styles for blog 2 */
+#container_blog2 h1, #container_blog2 h2 {
+    text-align: left;
+    color: #a35f20;
+}
+
+#container_blog2 .intro-paragraph {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+#container_blog2 img.img-blog2 {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+        width: 100px;
+    }
+
+    .footer-item h4 {
+        font-size: 1.25rem;
+    }
+
+    .footer-item span {
+        font-size: 1rem;
+    }
+}
+.card {
+    border: none !important; /* Loại bỏ border của thẻ card */
+    box-shadow: none !important; /* Loại bỏ shadow nếu có */
+}
+
+.card-body {
+    border: none !important; /* Loại bỏ border của thẻ card-body nếu có */
+    box-shadow: none !important; /* Loại bỏ shadow nếu có */
+}
+
 .signature:hover{
 	color: #a35f20;
 }
@@ -112,7 +171,7 @@ body {
 }
 /* Contact Page Styles */
 .contact-page {
-    background-color: #fdf1f1;
+    background-color: #fff;
 }
 
 .contact-img {
@@ -666,7 +725,7 @@ body {
 }
 
 .img-vlog1{
-	width: 60%;
+	width: 100%;
 	height: auto;
 }
 
